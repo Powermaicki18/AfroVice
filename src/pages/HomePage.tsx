@@ -69,7 +69,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
 
         <div className="relative h-full flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-            Vive la Noche Colombiana
+            AfroVice
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl">
             Descubre los mejores eventos de música afro, dancehall y reggaetón en
