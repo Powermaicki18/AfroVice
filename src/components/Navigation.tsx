@@ -1,4 +1,5 @@
 import { Search, Bell, User, Music } from 'lucide-react';
+import logo from './logo.png';
 
 type NavigationProps = {
   currentPage: string;
@@ -26,8 +27,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
               onClick={() => onNavigate('inicio')}
               className="flex items-center gap-2 text-white hover:text-violet-400 transition-colors"
             >
-              <Music className="w-6 h-6" />
-              <span className="text-xl font-bold">Ritmo</span>
+              <img className="w-16" src={logo} alt="logo"/>
             </button>
 
             <div className="hidden md:flex items-center gap-6">
